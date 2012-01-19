@@ -1,0 +1,111 @@
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\obj\Debug\sys2.Properties.Resources.resources
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\obj\Debug\sys2.csproj.GenerateResource.Cache
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\bin\Debug\sys2.exe
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\bin\Debug\sys2.pdb
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\bin\Debug\Mono.Security.dll
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\bin\Debug\Npgsql.dll
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\bin\Debug\Npgsql.pdb
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\bin\Debug\Npgsql.xml
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\bin\Debug\de\Npgsql.resources.dll
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\bin\Debug\es\Npgsql.resources.dll
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\obj\Debug\sys2.exe
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\obj\Debug\sys2.pdb
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\obj\Debug\sys2.TestConnectionForm.resources
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\obj\Debug\sys2.StartForm.resources
+C:\Users\Shahdee\Documents\Visual Studio 2008\Projects\sys2\sys2\obj\Debug\sys2.Scheduler.resources
+E:\sys2\sys2\obj\Debug\sys2.exe
+E:\sys2\sys2\obj\Debug\sys2.pdb
+E:\sys2\sys2\bin\Debug\sys2.exe
+E:\sys2\sys2\bin\Debug\sys2.pdb
+E:\sys2\sys2\bin\Debug\Npgsql.pdb
+E:\sys2\sys2\bin\Debug\Npgsql.xml
+E:\sys2\sys2\bin\Debug\de\Npgsql.resources.dll
+E:\sys2\sys2\bin\Debug\es\Npgsql.resources.dll
+E:\sys2\sys2\bin\Debug\fi\Npgsql.resources.dll
+E:\sys2\sys2\bin\Debug\fr\Npgsql.resources.dll
+E:\sys2\sys2\bin\Debug\ja\Npgsql.resources.dll
+E:\sys2\sys2\bin\Debug\zh-CN\Npgsql.resources.dll
+E:\sys2\sys2\obj\Debug\ResolveAssemblyReference.cache
+E:\sys2\sys2\obj\Debug\sys2.TestConnectionForm.resources
+E:\sys2\sys2\obj\Debug\sys2.Properties.Resources.resources
+E:\sys2\sys2\obj\Debug\sys2.csproj.GenerateResource.Cache
+E:\sys2\sys2\obj\Debug\sys2.CScheduler.resources
+E:\sys2\sys2\obj\Debug\sys2.CStartForm.resources
+E:\sys2\sys2\obj\Debug\sys2.CNewPatient.resources
+D:\TS RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.exe
+D:\TS RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.pdb
+D:\TS RIS\sys2_11\sys2_1\sys2\bin\Debug\sys2.exe
+D:\TS RIS\sys2_11\sys2_1\sys2\bin\Debug\sys2.pdb
+D:\TS RIS\sys2_11\sys2_1\sys2\bin\Debug\Mono.Security.dll
+D:\TS RIS\sys2_11\sys2_1\sys2\bin\Debug\Npgsql.dll
+D:\TS RIS\sys2_11\sys2_1\sys2\bin\Debug\Npgsql.pdb
+D:\TS RIS\sys2_11\sys2_1\sys2\bin\Debug\Npgsql.xml
+D:\TS RIS\sys2_11\sys2_1\sys2\bin\Debug\de\Npgsql.resources.dll
+D:\TS RIS\sys2_11\sys2_1\sys2\bin\Debug\es\Npgsql.resources.dll
+D:\TS RIS\sys2_11\sys2_1\sys2\bin\Debug\fi\Npgsql.resources.dll
+D:\TS RIS\sys2_11\sys2_1\sys2\bin\Debug\fr\Npgsql.resources.dll
+D:\TS RIS\sys2_11\sys2_1\sys2\bin\Debug\ja\Npgsql.resources.dll
+D:\TS RIS\sys2_11\sys2_1\sys2\bin\Debug\zh-CN\Npgsql.resources.dll
+D:\TS RIS\sys2_11\sys2_1\sys2\obj\Debug\ResolveAssemblyReference.cache
+D:\TS RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.CNewPatient.resources
+D:\TS RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.CStartForm.resources
+D:\TS RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.TestConnectionForm.resources
+D:\TS RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.Properties.Resources.resources
+D:\TS RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.csproj.GenerateResource.Cache
+D:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.exe
+D:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.pdb
+D:\TS_RIS\sys2_11\sys2_1\sys2\bin\Debug\sys2.exe
+D:\TS_RIS\sys2_11\sys2_1\sys2\bin\Debug\sys2.pdb
+D:\TS_RIS\sys2_11\sys2_1\sys2\bin\Debug\Npgsql.pdb
+D:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\ResolveAssemblyReference.cache
+D:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.CNewPatient.resources
+D:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.CStartForm.resources
+D:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.TestConnectionForm.resources
+D:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.Properties.Resources.resources
+D:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.csproj.GenerateResource.Cache
+D:\TS_RIS\sys2_11\sys2_1\sys2\bin\Debug\sys2.exe.config
+Z:\Di\sys2_11\sys2_1\sys2\bin\Debug\sys2.exe.config
+Z:\Di\sys2_11\sys2_1\sys2\obj\Debug\sys2.exe
+Z:\Di\sys2_11\sys2_1\sys2\obj\Debug\sys2.pdb
+E:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\ResolveAssemblyReference.cache
+E:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.CNewPatient.resources
+E:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.CStartForm.resources
+E:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.PatientProtocolForm.resources
+E:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.TestConnectionForm.resources
+E:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.Properties.Resources.resources
+E:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.csproj.GenerateResource.Cache
+E:\TS_RIS\sys2_11\sys2_1\sys2\bin\Debug\sys2.exe.config
+E:\TS_RIS\sys2_11\sys2_1\sys2\bin\Debug\sys2.exe
+E:\TS_RIS\sys2_11\sys2_1\sys2\bin\Debug\sys2.pdb
+E:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.exe
+E:\TS_RIS\sys2_11\sys2_1\sys2\obj\Debug\sys2.pdb
+E:\tsris\sys2_11\sys2_1\sys2\bin\Debug\sys2.exe.config
+E:\tsris\sys2_11\sys2_1\sys2\bin\Debug\sys2.exe
+E:\tsris\sys2_11\sys2_1\sys2\bin\Debug\sys2.pdb
+E:\tsris\sys2_11\sys2_1\sys2\obj\Debug\ResolveAssemblyReference.cache
+E:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.CNewPatient.resources
+E:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.CStartForm.resources
+E:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.PatientProtocolForm.resources
+E:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.TestConnectionForm.resources
+E:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.Properties.Resources.resources
+E:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.csproj.GenerateResource.Cache
+E:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.exe
+E:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.pdb
+D:\tsris\sys2_11\sys2_1\sys2\bin\Debug\sys2.exe.config
+D:\tsris\sys2_11\sys2_1\sys2\bin\Debug\sys2.exe
+D:\tsris\sys2_11\sys2_1\sys2\bin\Debug\sys2.pdb
+D:\tsris\sys2_11\sys2_1\sys2\obj\Debug\ResolveAssemblyReference.cache
+D:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.CNewPatient.resources
+D:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.CStartForm.resources
+D:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.PatientProtocolForm.resources
+D:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.TestConnectionForm.resources
+D:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.Properties.Resources.resources
+D:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.csproj.GenerateResource.Cache
+D:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.exe
+D:\tsris\sys2_11\sys2_1\sys2\obj\Debug\sys2.pdb
+D:\tsris\sys2_11\sys2_1\sys2\bin\Debug\Mono.Security.dll

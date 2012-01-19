@@ -1,0 +1,17 @@
+-r
+D:\tsris\sys2_11\sys2_1\sys2\My Amplifier XE Results - sys2\r005cc
+--data-limit-mb=100
+--follow-child
+--type=frame:counters
+--stackwalk=offline
+--mrte-mode=managed
+--type=cpu:counters
+--type=cpu:stack
+--interval=10
+--type=threading:stack
+--type=waiting:stack
+--type=io:stack
+--search-dir
+sym=D:/tsris/sys2_11/sys2_1
+--
+D:\tsris\sys2_11\sys2_1\sys2\bin\Debug\sys2.exe

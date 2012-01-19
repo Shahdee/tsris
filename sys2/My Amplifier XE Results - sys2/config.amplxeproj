@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <rdmgr>
+  <timestamp type="u64_t">1325754617</timestamp>
+  <hostname>TS</hostname>
+  <os>windows</os>
+  <product>Intel® VTune™ Amplifier XE 2011 Update 7</product>
+  <buildNumber type="s32_t">206420</buildNumber>
+ </rdmgr>
+ <All_Configurations-All_Platforms>
+  <analysis_type_settings>
+   <selected_analysis_type_path>C:\Program Files (x86)\Intel\VTune Amplifier XE 2011\config\analysis_type\concurrency.cfg</selected_analysis_type_path>
+  </analysis_type_settings>
+ </All_Configurations-All_Platforms>
+</root>
