@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabed_window = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.curr_date = new System.Windows.Forms.Label();
@@ -48,6 +48,16 @@
             this.logoSchedule = new System.Windows.Forms.PictureBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.sChild = new System.Windows.Forms.ComboBox();
+            this.sSex = new System.Windows.Forms.ComboBox();
+            this.sCh = new System.Windows.Forms.Label();
+            this.sAm = new System.Windows.Forms.Label();
+            this.sSe = new System.Windows.Forms.Label();
+            this.sBi = new System.Windows.Forms.Label();
+            this.sIn = new System.Windows.Forms.Label();
+            this.sAmbNum = new System.Windows.Forms.TextBox();
+            this.sInitials = new System.Windows.Forms.TextBox();
+            this.sBirthDate = new System.Windows.Forms.TextBox();
             this.guest = new System.Windows.Forms.Label();
             this.LeaveSystem = new System.Windows.Forms.LinkLabel();
             this.label26 = new System.Windows.Forms.Label();
@@ -124,6 +134,8 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.sSearch = new System.Windows.Forms.ComboBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabed_window.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SchedulerData)).BeginInit();
@@ -149,6 +161,7 @@
             this.tabed_window.Controls.Add(this.tabPage1);
             this.tabed_window.Controls.Add(this.tabPage2);
             this.tabed_window.Controls.Add(this.tabPage3);
+            this.tabed_window.Controls.Add(this.tabPage4);
             this.tabed_window.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tabed_window.Location = new System.Drawing.Point(2, -1);
             this.tabed_window.Multiline = true;
@@ -184,7 +197,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Расписание";
             this.tabPage1.UseVisualStyleBackColor = true;
-            
             // 
             // curr_date
             // 
@@ -407,24 +419,24 @@
             this.SchedulerData.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.SchedulerData.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.SchedulerData.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.SchedulerData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.SchedulerData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.SchedulerData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.SchedulerData.Cursor = System.Windows.Forms.Cursors.Arrow;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.SchedulerData.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.SchedulerData.DefaultCellStyle = dataGridViewCellStyle6;
             this.SchedulerData.GridColor = System.Drawing.SystemColors.Window;
             this.SchedulerData.Location = new System.Drawing.Point(243, 297);
             this.SchedulerData.MultiSelect = false;
@@ -464,6 +476,17 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.SystemColors.Window;
+            this.tabPage2.Controls.Add(this.sSearch);
+            this.tabPage2.Controls.Add(this.sChild);
+            this.tabPage2.Controls.Add(this.sSex);
+            this.tabPage2.Controls.Add(this.sCh);
+            this.tabPage2.Controls.Add(this.sAm);
+            this.tabPage2.Controls.Add(this.sSe);
+            this.tabPage2.Controls.Add(this.sBi);
+            this.tabPage2.Controls.Add(this.sIn);
+            this.tabPage2.Controls.Add(this.sAmbNum);
+            this.tabPage2.Controls.Add(this.sInitials);
+            this.tabPage2.Controls.Add(this.sBirthDate);
             this.tabPage2.Controls.Add(this.guest);
             this.tabPage2.Controls.Add(this.LeaveSystem);
             this.tabPage2.Controls.Add(this.label26);
@@ -481,12 +504,140 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Поиск";
             // 
+            // sChild
+            // 
+            this.sChild.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.sChild.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.sChild.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sChild.FormattingEnabled = true;
+            this.sChild.Items.AddRange(new object[] {
+            "Нет",
+            "Да"});
+            this.sChild.Location = new System.Drawing.Point(405, 531);
+            this.sChild.Name = "sChild";
+            this.sChild.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.sChild.Size = new System.Drawing.Size(69, 24);
+            this.sChild.TabIndex = 65;
+            this.sChild.Visible = false;
+            // 
+            // sSex
+            // 
+            this.sSex.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.sSex.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.sSex.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sSex.FormattingEnabled = true;
+            this.sSex.Items.AddRange(new object[] {
+            "Жен",
+            "Муж",
+            "---"});
+            this.sSex.Location = new System.Drawing.Point(404, 444);
+            this.sSex.Name = "sSex";
+            this.sSex.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.sSex.Size = new System.Drawing.Size(69, 24);
+            this.sSex.TabIndex = 63;
+            this.sSex.Visible = false;
+            // 
+            // sCh
+            // 
+            this.sCh.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.sCh.AutoSize = true;
+            this.sCh.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sCh.Location = new System.Drawing.Point(296, 534);
+            this.sCh.Name = "sCh";
+            this.sCh.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.sCh.Size = new System.Drawing.Size(68, 16);
+            this.sCh.TabIndex = 70;
+            this.sCh.Text = "Ребёнок?";
+            this.sCh.Visible = false;
+            // 
+            // sAm
+            // 
+            this.sAm.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.sAm.AutoSize = true;
+            this.sAm.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sAm.Location = new System.Drawing.Point(198, 490);
+            this.sAm.Name = "sAm";
+            this.sAm.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.sAm.Size = new System.Drawing.Size(168, 16);
+            this.sAm.TabIndex = 69;
+            this.sAm.Text = "№ амбулаторной карты";
+            this.sAm.Visible = false;
+            // 
+            // sSe
+            // 
+            this.sSe.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.sSe.AutoSize = true;
+            this.sSe.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sSe.Location = new System.Drawing.Point(328, 449);
+            this.sSe.Name = "sSe";
+            this.sSe.Size = new System.Drawing.Size(35, 16);
+            this.sSe.TabIndex = 68;
+            this.sSe.Text = "Пол";
+            this.sSe.Visible = false;
+            // 
+            // sBi
+            // 
+            this.sBi.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.sBi.AutoSize = true;
+            this.sBi.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sBi.Location = new System.Drawing.Point(255, 410);
+            this.sBi.Name = "sBi";
+            this.sBi.Size = new System.Drawing.Size(110, 16);
+            this.sBi.TabIndex = 67;
+            this.sBi.Text = "Дата рождения";
+            this.sBi.Visible = false;
+            // 
+            // sIn
+            // 
+            this.sIn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.sIn.AutoSize = true;
+            this.sIn.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sIn.Location = new System.Drawing.Point(328, 370);
+            this.sIn.Name = "sIn";
+            this.sIn.Size = new System.Drawing.Size(37, 16);
+            this.sIn.TabIndex = 66;
+            this.sIn.Text = "ФИО";
+            this.sIn.Visible = false;
+            // 
+            // sAmbNum
+            // 
+            this.sAmbNum.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.sAmbNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sAmbNum.Location = new System.Drawing.Point(404, 487);
+            this.sAmbNum.Name = "sAmbNum";
+            this.sAmbNum.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.sAmbNum.Size = new System.Drawing.Size(100, 22);
+            this.sAmbNum.TabIndex = 64;
+            this.sAmbNum.Visible = false;
+            // 
+            // sInitials
+            // 
+            this.sInitials.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.sInitials.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sInitials.Location = new System.Drawing.Point(404, 366);
+            this.sInitials.Name = "sInitials";
+            this.sInitials.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.sInitials.Size = new System.Drawing.Size(197, 22);
+            this.sInitials.TabIndex = 61;
+            this.sInitials.Visible = false;
+            // 
+            // sBirthDate
+            // 
+            this.sBirthDate.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.sBirthDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sBirthDate.Location = new System.Drawing.Point(404, 406);
+            this.sBirthDate.Name = "sBirthDate";
+            this.sBirthDate.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.sBirthDate.Size = new System.Drawing.Size(100, 22);
+            this.sBirthDate.TabIndex = 62;
+            this.sBirthDate.Visible = false;
+            // 
             // guest
             // 
             this.guest.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.guest.AutoSize = true;
             this.guest.ForeColor = System.Drawing.Color.OrangeRed;
-            this.guest.Location = new System.Drawing.Point(501, 144);
+            this.guest.Location = new System.Drawing.Point(405, 173);
             this.guest.Name = "guest";
             this.guest.Size = new System.Drawing.Size(46, 16);
             this.guest.TabIndex = 60;
@@ -498,7 +649,7 @@
             this.LeaveSystem.AutoSize = true;
             this.LeaveSystem.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LeaveSystem.LinkColor = System.Drawing.Color.Black;
-            this.LeaveSystem.Location = new System.Drawing.Point(501, 295);
+            this.LeaveSystem.Location = new System.Drawing.Point(405, 324);
             this.LeaveSystem.Name = "LeaveSystem";
             this.LeaveSystem.Size = new System.Drawing.Size(127, 16);
             this.LeaveSystem.TabIndex = 3;
@@ -524,7 +675,7 @@
             this.Enter_system.AutoSize = true;
             this.Enter_system.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Enter_system.LinkColor = System.Drawing.Color.Black;
-            this.Enter_system.Location = new System.Drawing.Point(501, 265);
+            this.Enter_system.Location = new System.Drawing.Point(405, 294);
             this.Enter_system.Name = "Enter_system";
             this.Enter_system.Size = new System.Drawing.Size(116, 16);
             this.Enter_system.TabIndex = 2;
@@ -537,7 +688,7 @@
             this.label25.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label25.Location = new System.Drawing.Point(402, 214);
+            this.label25.Location = new System.Drawing.Point(306, 243);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(57, 16);
             this.label25.TabIndex = 57;
@@ -548,7 +699,7 @@
             this.label24.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label24.Location = new System.Drawing.Point(379, 175);
+            this.label24.Location = new System.Drawing.Point(283, 204);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(101, 16);
             this.label24.TabIndex = 56;
@@ -557,7 +708,7 @@
             // tPassword
             // 
             this.tPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tPassword.Location = new System.Drawing.Point(501, 212);
+            this.tPassword.Location = new System.Drawing.Point(405, 241);
             this.tPassword.Name = "tPassword";
             this.tPassword.PasswordChar = '*';
             this.tPassword.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -567,7 +718,7 @@
             // tUser
             // 
             this.tUser.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tUser.Location = new System.Drawing.Point(501, 173);
+            this.tUser.Location = new System.Drawing.Point(405, 202);
             this.tUser.Name = "tUser";
             this.tUser.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tUser.Size = new System.Drawing.Size(123, 22);
@@ -579,7 +730,7 @@
             this.link_settings.AutoSize = true;
             this.link_settings.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.link_settings.LinkColor = System.Drawing.Color.Black;
-            this.link_settings.Location = new System.Drawing.Point(895, 44);
+            this.link_settings.Location = new System.Drawing.Point(887, 44);
             this.link_settings.Name = "link_settings";
             this.link_settings.Size = new System.Drawing.Size(78, 16);
             this.link_settings.TabIndex = 4;
@@ -1426,6 +1577,27 @@
             this.pictureBox6.TabStop = false;
             this.pictureBox6.WaitOnLoad = true;
             // 
+            // sSearch
+            // 
+            this.sSearch.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.sSearch.FormattingEnabled = true;
+            this.sSearch.Location = new System.Drawing.Point(405, 130);
+            this.sSearch.Name = "sSearch";
+            this.sSearch.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.sSearch.Size = new System.Drawing.Size(200, 24);
+            this.sSearch.TabIndex = 71;
+            this.sSearch.Visible = false;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1002, 657);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Статистика";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
             // CStartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1556,5 +1728,17 @@
         private System.Windows.Forms.Label ntyearl;
         private System.Windows.Forms.Label ntmonthl;
         private System.Windows.Forms.Label ntdayl;
+        private System.Windows.Forms.ComboBox sChild;
+        private System.Windows.Forms.ComboBox sSex;
+        private System.Windows.Forms.Label sCh;
+        private System.Windows.Forms.Label sAm;
+        private System.Windows.Forms.Label sSe;
+        private System.Windows.Forms.Label sBi;
+        private System.Windows.Forms.Label sIn;
+        private System.Windows.Forms.TextBox sAmbNum;
+        private System.Windows.Forms.TextBox sInitials;
+        private System.Windows.Forms.TextBox sBirthDate;
+        private System.Windows.Forms.ComboBox sSearch;
+        private System.Windows.Forms.TabPage tabPage4;
     }
 }

@@ -670,6 +670,21 @@ namespace sys2
                         user.id = 0;
                         guest.Text = "Администратор";
                         guest.ForeColor = Color.Green;
+
+
+                        /* отображаем все поля для поиска пациента*/
+                        sSearch.Visible = true;
+                        sInitials.Visible = true;
+                        sSex.Visible = true;
+                        sBirthDate.Visible = true;
+                        sAmbNum.Visible = true;
+                        sChild.Visible = true;
+
+                        sIn.Visible = true;
+                        sSe.Visible = true;
+                        sBi.Visible = true;
+                        sAm.Visible = true;
+                        sCh.Visible = true;
                     }
                      
                     tUser.Clear();
@@ -692,6 +707,20 @@ namespace sys2
             user.role = Role.Undefined;
             guest.Text = "Гость";
             guest.ForeColor = Color.OrangeRed;
+
+            /* скрываем все поля для поиска пациента*/
+            sSearch.Visible = false;
+            sInitials.Visible = false;
+            sSex.Visible = false;
+            sBirthDate.Visible = false;
+            sAmbNum.Visible = false;
+            sChild.Visible = false;
+
+            sIn.Visible = false;
+            sSe.Visible = false;
+            sBi.Visible = false;
+            sAm.Visible = false;
+            sCh.Visible = false;
 
         }
 
