@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabed_window = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.curr_date = new System.Windows.Forms.Label();
@@ -48,6 +48,7 @@
             this.logoSchedule = new System.Windows.Forms.PictureBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.sSearch = new System.Windows.Forms.ComboBox();
             this.sChild = new System.Windows.Forms.ComboBox();
             this.sSex = new System.Windows.Forms.ComboBox();
             this.sCh = new System.Windows.Forms.Label();
@@ -69,6 +70,10 @@
             this.link_settings = new System.Windows.Forms.LinkLabel();
             this.logoSearch = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label34 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.NewtYear = new System.Windows.Forms.ComboBox();
             this.NewtMonth = new System.Windows.Forms.ComboBox();
             this.NewtDay = new System.Windows.Forms.ComboBox();
@@ -98,6 +103,7 @@
             this.tAmbNum = new System.Windows.Forms.TextBox();
             this.tInitials = new System.Windows.Forms.TextBox();
             this.tBirthDate = new System.Windows.Forms.TextBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -134,8 +140,6 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.sSearch = new System.Windows.Forms.ComboBox();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabed_window.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SchedulerData)).BeginInit();
@@ -419,24 +423,24 @@
             this.SchedulerData.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.SchedulerData.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.SchedulerData.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.SchedulerData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.SchedulerData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.SchedulerData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.SchedulerData.Cursor = System.Windows.Forms.Cursors.Arrow;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.SchedulerData.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.SchedulerData.DefaultCellStyle = dataGridViewCellStyle4;
             this.SchedulerData.GridColor = System.Drawing.SystemColors.Window;
             this.SchedulerData.Location = new System.Drawing.Point(243, 297);
             this.SchedulerData.MultiSelect = false;
@@ -503,6 +507,17 @@
             this.tabPage2.Size = new System.Drawing.Size(1002, 657);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Поиск";
+            // 
+            // sSearch
+            // 
+            this.sSearch.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.sSearch.FormattingEnabled = true;
+            this.sSearch.Location = new System.Drawing.Point(405, 130);
+            this.sSearch.Name = "sSearch";
+            this.sSearch.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.sSearch.Size = new System.Drawing.Size(200, 24);
+            this.sSearch.TabIndex = 71;
+            this.sSearch.Visible = false;
             // 
             // sChild
             // 
@@ -754,6 +769,10 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.label34);
+            this.tabPage3.Controls.Add(this.comboBox2);
+            this.tabPage3.Controls.Add(this.label33);
+            this.tabPage3.Controls.Add(this.comboBox1);
             this.tabPage3.Controls.Add(this.NewtYear);
             this.tabPage3.Controls.Add(this.NewtMonth);
             this.tabPage3.Controls.Add(this.NewtDay);
@@ -791,6 +810,65 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Новый пациент";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label34
+            // 
+            this.label34.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label34.Location = new System.Drawing.Point(73, 511);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(186, 16);
+            this.label34.TabIndex = 86;
+            this.label34.Text = "Источник финансирвоания";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Бюджет",
+            "ВМП",
+            "СМП",
+            "ЭМП",
+            "Договор",
+            "Оплаченный"});
+            this.comboBox2.Location = new System.Drawing.Point(274, 514);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.comboBox2.Size = new System.Drawing.Size(144, 24);
+            this.comboBox2.TabIndex = 85;
+            // 
+            // label33
+            // 
+            this.label33.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label33.Location = new System.Drawing.Point(558, 514);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(72, 16);
+            this.label33.TabIndex = 84;
+            this.label33.Text = "Эфф. доза";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple;
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Таз",
+            "Ключица",
+            "Череп",
+            "Кисти",
+            "Грудная клетка"});
+            this.comboBox1.Location = new System.Drawing.Point(664, 514);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.comboBox1.Size = new System.Drawing.Size(77, 24);
+            this.comboBox1.TabIndex = 83;
             // 
             // NewtYear
             // 
@@ -945,7 +1023,7 @@
             this.label32.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label32.Location = new System.Drawing.Point(263, 412);
+            this.label32.Location = new System.Drawing.Point(126, 426);
             this.label32.Name = "label32";
             this.label32.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label32.Size = new System.Drawing.Size(110, 16);
@@ -961,7 +1039,7 @@
             this.tHospital.Items.AddRange(new object[] {
             "Нет",
             "Да"});
-            this.tHospital.Location = new System.Drawing.Point(411, 404);
+            this.tHospital.Location = new System.Drawing.Point(274, 418);
             this.tHospital.Name = "tHospital";
             this.tHospital.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tHospital.Size = new System.Drawing.Size(69, 24);
@@ -978,8 +1056,9 @@
             "CT",
             "MG",
             "MR",
-            "NM"});
-            this.tModality.Location = new System.Drawing.Point(411, 491);
+            "NM",
+            "SC"});
+            this.tModality.Location = new System.Drawing.Point(664, 418);
             this.tModality.Name = "tModality";
             this.tModality.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tModality.Size = new System.Drawing.Size(69, 24);
@@ -997,10 +1076,10 @@
             "Череп",
             "Кисти",
             "Грудная клетка"});
-            this.tBody.Location = new System.Drawing.Point(411, 547);
+            this.tBody.Location = new System.Drawing.Point(664, 461);
             this.tBody.Name = "tBody";
             this.tBody.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.tBody.Size = new System.Drawing.Size(197, 24);
+            this.tBody.Size = new System.Drawing.Size(162, 24);
             this.tBody.TabIndex = 9;
             // 
             // tDepartment
@@ -1010,10 +1089,12 @@
             this.tDepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tDepartment.FormattingEnabled = true;
             this.tDepartment.Items.AddRange(new object[] {
+            "Поликлиника",
             "Хирургия",
             "Маловески",
-            "Патология"});
-            this.tDepartment.Location = new System.Drawing.Point(411, 447);
+            "Новорожденные",
+            "ЭКО"});
+            this.tDepartment.Location = new System.Drawing.Point(274, 461);
             this.tDepartment.Name = "tDepartment";
             this.tDepartment.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tDepartment.Size = new System.Drawing.Size(195, 24);
@@ -1024,7 +1105,7 @@
             this.label31.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label31.Location = new System.Drawing.Point(329, 547);
+            this.label31.Location = new System.Drawing.Point(583, 473);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(47, 16);
             this.label31.TabIndex = 69;
@@ -1035,7 +1116,7 @@
             this.label30.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label30.Location = new System.Drawing.Point(291, 455);
+            this.label30.Location = new System.Drawing.Point(154, 469);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(79, 16);
             this.label30.TabIndex = 68;
@@ -1046,7 +1127,7 @@
             this.label29.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label29.Location = new System.Drawing.Point(279, 499);
+            this.label29.Location = new System.Drawing.Point(540, 426);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(97, 16);
             this.label29.TabIndex = 65;
@@ -1100,7 +1181,7 @@
             this.label23.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label23.Location = new System.Drawing.Point(689, 214);
+            this.label23.Location = new System.Drawing.Point(749, 153);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(48, 16);
             this.label23.TabIndex = 64;
@@ -1112,7 +1193,7 @@
             this.button_next.BackColor = System.Drawing.Color.White;
             this.button_next.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button_next.Image = global::sys2.Properties.Resources.right;
-            this.button_next.Location = new System.Drawing.Point(689, 246);
+            this.button_next.Location = new System.Drawing.Point(749, 185);
             this.button_next.Name = "button_next";
             this.button_next.Size = new System.Drawing.Size(75, 186);
             this.button_next.TabIndex = 6;
@@ -1219,6 +1300,16 @@
             this.tBirthDate.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tBirthDate.Size = new System.Drawing.Size(100, 22);
             this.tBirthDate.TabIndex = 2;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1002, 657);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Статистика";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // label10
             // 
@@ -1577,27 +1668,6 @@
             this.pictureBox6.TabStop = false;
             this.pictureBox6.WaitOnLoad = true;
             // 
-            // sSearch
-            // 
-            this.sSearch.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.sSearch.FormattingEnabled = true;
-            this.sSearch.Location = new System.Drawing.Point(405, 130);
-            this.sSearch.Name = "sSearch";
-            this.sSearch.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.sSearch.Size = new System.Drawing.Size(200, 24);
-            this.sSearch.TabIndex = 71;
-            this.sSearch.Visible = false;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1002, 657);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Статистика";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
             // CStartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1740,5 +1810,9 @@
         private System.Windows.Forms.TextBox sBirthDate;
         private System.Windows.Forms.ComboBox sSearch;
         private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

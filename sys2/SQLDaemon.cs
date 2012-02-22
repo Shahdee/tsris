@@ -48,6 +48,22 @@ namespace sys2
             conn.Open();
             int id;
             NpgsqlTransaction t = conn.BeginTransaction();
+
+            /*
+            try
+            {
+               
+            }
+            catch
+            {
+                MessageBox.Show("DB exeption");
+            }
+            finally 
+            {
+                MessageBox.Show("change your parametres");
+            }
+             * 
+             */
             NpgsqlCommand comm = new NpgsqlCommand("\"CheckUserRole\"", conn);
 
             NpgsqlParameter login = new NpgsqlParameter("login", NpgsqlTypes.NpgsqlDbType.Varchar);

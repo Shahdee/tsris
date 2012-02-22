@@ -14,7 +14,7 @@
     <ReferencePath>Z:\Di\sys2_11\sys2_1\sys2\bin\Debug\;Z:\Di\sys2_11\sys2_1\sys2\bin\Release\</ReferencePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <StartWorkingDirectory>E:\tsris\repo\sys2\bin\Debug\</StartWorkingDirectory>
+    <StartWorkingDirectory>D:\tsris\repo\sys2\bin\Debug\</StartWorkingDirectory>
     <RemoteDebugEnabled>false</RemoteDebugEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">

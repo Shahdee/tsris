@@ -122,3 +122,16 @@ E:\tsris\repo\sys2\bin\Debug\sys2.exe
 E:\tsris\repo\sys2\bin\Debug\sys2.pdb
 E:\tsris\repo\sys2\bin\Debug\Mono.Security.dll
 E:\tsris\repo\sys2\obj\Debug\sys2.pdb
+D:\tsris\repo\sys2\bin\Debug\sys2.exe.config
+D:\tsris\repo\sys2\bin\Debug\sys2.exe
+D:\tsris\repo\sys2\bin\Debug\sys2.pdb
+D:\tsris\repo\sys2\bin\Debug\Mono.Security.dll
+D:\tsris\repo\sys2\obj\Debug\ResolveAssemblyReference.cache
+D:\tsris\repo\sys2\obj\Debug\sys2.CNewPatient.resources
+D:\tsris\repo\sys2\obj\Debug\sys2.CStartForm.resources
+D:\tsris\repo\sys2\obj\Debug\sys2.PatientProtocolForm.resources
+D:\tsris\repo\sys2\obj\Debug\sys2.TestConnectionForm.resources
+D:\tsris\repo\sys2\obj\Debug\sys2.Properties.Resources.resources
+D:\tsris\repo\sys2\obj\Debug\sys2.csproj.GenerateResource.Cache
+D:\tsris\repo\sys2\obj\Debug\sys2.exe
+D:\tsris\repo\sys2\obj\Debug\sys2.pdb
