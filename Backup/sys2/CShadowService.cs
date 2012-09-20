@@ -14,11 +14,17 @@ namespace sys2
     public class CShadowService // инициализация сервиса
     {
         public SQLDaemon sql;
+
         public CScheduler sch;
+
         public CRegistration reg;
+
         public CStateBox box;
+
         public MakeaWindowPrm win;
+
         private string query;
+
         public AutoResetEvent autoEvent;
 
 

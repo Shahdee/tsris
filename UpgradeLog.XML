@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="sys2">
+</Property><Property Name="Solution File" Value="D:\tsris\repo\sys2.sln">
+</Property><Property Name="User Options File" Value="D:\tsris\repo\sys2.suo">
+</Property><Property Name="Date" Value="19 августа 2012 г.">
+</Property><Property Name="Time" Value="17:16">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="sys2.sln" Description="File successfully backed up as D:\tsris\repo\Backup\sys2.sln">
+</Event><Event ErrorLevel="0" Project="" Source="sys2.suo" Description="File successfully backed up as D:\tsris\repo\Backup\sys2.suo">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\sys2.csproj" Description="Project file successfully backed up as D:\tsris\repo\Backup\sys2\sys2.csproj">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\sys2.csproj.user" Description="Project user file successfully backed up as D:\tsris\repo\Backup\sys2\sys2.csproj.user">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\CNewPatient.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\CNewPatient.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\CNewPatient.Designer.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\CNewPatient.Designer.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\CRegistration.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\CRegistration.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\CScheduler.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\CScheduler.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\CShadowService.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\CShadowService.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\CStartForm.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\CStartForm.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\CStartForm.Designer.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\CStartForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\DataInputFunctions.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\DataInputFunctions.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\MakeaWindowPrm.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\MakeaWindowPrm.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\PatientProtocolForm.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\PatientProtocolForm.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\PatientProtocolForm.Designer.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\PatientProtocolForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\SQLDaemon.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\SQLDaemon.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\SystemClasses.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\SystemClasses.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\SystemFunctions.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\SystemFunctions.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\TestConnectionForm.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\TestConnectionForm.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\TestConnectionForm.Designer.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\TestConnectionForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\Program.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\Program.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\Properties\Settings.settings" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\Resources\ts.jpg" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\Resources\ts.jpg">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\Resources\right.jpg" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\Resources\right.jpg">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\app.config" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\app.config">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\ClassDiagram1.cd" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\ClassDiagram1.cd">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\ClassDiagram2.cd" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\ClassDiagram2.cd">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\Resources\left.jpg" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\Resources\left.jpg">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\Resources\line.jpg" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\Resources\line.jpg">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\Roles.xml" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\Roles.xml">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\CNewPatient.resx" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\CNewPatient.resx">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\CStartForm.resx" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\CStartForm.resx">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\PatientProtocolForm.resx" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\PatientProtocolForm.resx">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\TestConnectionForm.resx" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\TestConnectionForm.resx">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\Properties\Resources.resx" Description="File successfully backed up as D:\tsris\repo\Backup\sys2\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\sys2.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="sys2" Source="sys2\sys2.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="sys2.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="sys2.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="sys2" Source="sys2\sys2.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

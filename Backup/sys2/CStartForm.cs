@@ -64,15 +64,21 @@ namespace sys2
                     correct = false;
                     for (int j = 0; j < prototype.Length; j++)
                     {
-                        if (ambnum[i] == prototype[j]){
+
+                        if (ambnum[i] == prototype[j])
+                        {
                             correct = true;   // если символ совпал с символом контрольной строки, то переходим к следующему символу строки_на_проверку  -------------------------------------------
                             break;    
                         }
-                        else{
+                        else
+                        {
                             correct = false;
+
                         }
+
                     }
-                    if(!correct){
+                    if(!correct)
+                    {
                         tAmbNum.BackColor = Color.Yellow;
                         return false;
                     }
@@ -80,7 +86,8 @@ namespace sys2
                 birthdate.CopyTo(0, dest, 0, 2);
                 day = Convert.ToString(dest[0]);
                 day += Convert.ToString(dest[1]);
-                if (Convert.ToInt32(day) > 0 && Convert.ToInt32(day) < 32){
+                if (Convert.ToInt32(day) > 0 && Convert.ToInt32(day) < 32)
+                {
                     birthdate.CopyTo(3, dest, 0, 2);
                     month = Convert.ToString(dest[0]);
                     month += Convert.ToString(dest[1]);
@@ -92,20 +99,28 @@ namespace sys2
                         year += Convert.ToString(dest[1]);
                         year += Convert.ToString(dest[2]);
                         year += Convert.ToString(dest[3]);
-                        if (Convert.ToInt32(year) > 1900 && Convert.ToInt32(year) < 3000){
+                        if (Convert.ToInt32(year) > 1900 && Convert.ToInt32(year) < 3000)
+                        {
                             // Проверка  на ввод дополнительных параметров
+
+
+
 
                             return true;  // все данные пациента были введены корректно с точки зрения правильности ввода
                         }
                         tBirthDate.BackColor = Color.Yellow;
                         return false;
+
+
                     }
                     tBirthDate.BackColor = Color.Yellow;
                     return false;
+
+
                 }
                 tBirthDate.BackColor = Color.Yellow;
                 return false;
-            }            
+            }
             return false;
         }
 
@@ -232,7 +247,8 @@ namespace sys2
                 return "NO";
         }
 
-        public CStartForm(){   
+        public CStartForm()
+        {   
 
             InitializeComponent(); // system function
 
@@ -251,6 +267,8 @@ namespace sys2
             shadow.sql = new SQLDaemon(FileReader(path));
             shadow.box = new CStateBox();
             shadow.box.locker = new object();
+            
+  
         }
 
         string TranslateToRusDay(string day_of_week)
@@ -357,7 +375,7 @@ namespace sys2
         void tabed_window_SelectedIndexChanged(object sender, System.EventArgs e)
         {
                 dt = DateTime.Today;
-               
+                
                 switch (tabed_window.SelectedTab.Text)
                 {
                     case "Расписание":
@@ -366,13 +384,16 @@ namespace sys2
                             {
                                 MessageBox.Show("У вас нет на это прав!");
                                 break;
+
                             }
                             else
                             {
+
                                 state = State.UpdateDataFromDB;
                                 shadow.sql.CheckDB(dt);
                                 //shadow.autoEvent.Set(); // поток получает билетик  //-------------------------------------------------------------------------------------------------------------
                                 SchedulerData.DataSource = shadow.sql.dt;
+                               
                                 curr_date.Text = TranslateToRusDay(dt.DayOfWeek.ToString());
                                 tDay.Text = dt.Day.ToString();
                                 tMonth.Text = TranslateToMonth(dt.Month);
@@ -394,6 +415,7 @@ namespace sys2
                             {
                                 MessageBox.Show("У вас нет на это прав!");
                                 break;
+
                             }
                             else 
                             {
@@ -423,7 +445,8 @@ namespace sys2
 
         }
 
-        void CheckDMY(int chck, int num, int num2){
+        void CheckDMY(int chck, int num, int num2) 
+        {
             if ((num - num2) == 0) 
             {
                 chck = 0;
@@ -438,7 +461,8 @@ namespace sys2
             }
         }
                    
-        private void tDay_TextChanged(object sender, EventArgs e){
+        private void tDay_TextChanged(object sender, EventArgs e)
+        {
             /*
             int day2;
             int check=0;
@@ -543,10 +567,15 @@ namespace sys2
             if (user.login == null || user.role == Role.Undefined || user.role != Role.Administrator)   // добавить мед персонал------------------------------------------------------------
             {
                 MessageBox.Show("У вас нет на это прав!");
+
             }
             else
             {
+               
+                
                 bool input_is_correct = false;
+
+
                 if (input_is_correct = CheckData(tInitials.Text, tBirthDate.Text, tSex.Text, tAmbNum.Text, tBaby.Text))  // если все поля были правильно заполненны
                 {
                     bool user_exist = false;
@@ -574,10 +603,14 @@ namespace sys2
                     protocol.sid = 0;
                     protocol.text = "..."; // ?????? 
 
+
                     if (user.role == Role.Administrator) 
                     {
                         // ---------------------------------------------------------------------------------------------------------Нужна дата для исследования
                     }
+
+
+
                     // Проверка существует ли пользователь
                     user_exist = shadow.sql.CheckUserExist(patient);
 
@@ -605,12 +638,15 @@ namespace sys2
                     tAmbNum.Clear();
                     tInitials.Clear();
                     tBirthDate.Clear();
-
+                   
+                    
                     tInitials.BackColor = Color.White;
                     tBirthDate.BackColor = Color.White;
                     tAmbNum.BackColor = Color.White;
                     tabed_window.SelectedTab = tabPage1; // переключить страницу на Расписание
                     SchedulerData.DataSource = shadow.sql.dt; 
+
+
                 }
                 else
                 {
@@ -620,6 +656,8 @@ namespace sys2
                     tAmbNum.BackColor = Color.Yellow;
                 }
             }
+
+            
         }
 
         private void Enter_system_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -641,6 +679,7 @@ namespace sys2
                         user.id = 0;
                         guest.Text = "Администратор";
                         guest.ForeColor = Color.Green;
+
 
                         /* отображаем все поля для поиска пациента*/
                         sSearch.Visible = true;
@@ -667,6 +706,7 @@ namespace sys2
                     tUser.BackColor = Color.Yellow;
                     tPassword.BackColor = Color.Yellow;
                 }
+                 
             }
         }
 
@@ -690,6 +730,7 @@ namespace sys2
             sBi.Visible = false;
             sAm.Visible = false;
             sCh.Visible = false;
+
         }
 
         /*Двойное нажатие на пациента в списке пациентов приводит к открытию его протокола*/
@@ -699,6 +740,7 @@ namespace sys2
             if (user.login == null || user.role == Role.Undefined && ( user.role != Role.Administrator || user.role != Role.Doctor )/*|| user.role != Role.Registrator || user.role != Role.SuperAdmin*/)
             {
                 MessageBox.Show("У вас нет на это прав!");
+                
             }
             else
             {
@@ -728,5 +770,7 @@ namespace sys2
             }
 
         }
+
+
     }
 }

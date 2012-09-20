@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Roles>
+  <root_role>
+    administrator
+  </root_role>
+  <level2_role>
+    <mr_doctor_role>
+      mr_doctor
+    </mr_doctor_role>
+    <rg_doctor_role>
+      rg_doctor
+    </rg_doctor_role>
+    <ct_doctor_role>
+      ct_doctor
+    </ct_doctor_role>
+    <nm_doctor_role>
+      nm_doctor
+    </nm_doctor_role>
+    <mr_doctor_role>
+      mg_doctor
+    </mr_doctor_role>
+  </level2_role>
+  <level3_role>
+    <mr_registrator_role>
+      mr_registrator 
+    </mr_registrator_role>
+    <rg_registrator_role>
+      rg_registrator
+    </rg_registrator_role>
+    <ct_registrator_role>
+      ct_registrator
+    </ct_registrator_role>
+    <nm_registrator_role>
+      nm_registrator
+    </nm_registrator_role>
+    <mg_registrator_role>
+     mg_registrator
+    </mg_registrator_role>
+  </level3_role>
+</Roles>

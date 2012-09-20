@@ -39,6 +39,7 @@ namespace sys2
             connstring = connectionstring;
             conn = new NpgsqlConnection(connstring);
             da = new NpgsqlDataAdapter(this.query, conn);
+
         }
 
         /*Проверяет логин и пароль пользователя на валидность*/
@@ -123,7 +124,7 @@ namespace sys2
         /*Извлекает список пациентов за указанную дату, прямой запрос*/ 
         public void CheckDB(DateTime date)
         {
-            this.query = "SELECT Patient.initials, Patient.sex, Patient.birth_date, Patient.amb_card, Patient.child, Study.modality, Patient.patient_id FROM Patient INNER JOIN Study ON Study.patient_id=Patient.patient_id WHERE Study.study_date="+"'"+date.Date.ToString("d")+"'";
+            this.query = "SELECT Patient.initials, Patient.sex, Patient.birth_date, Patient.amb_card, Patient.child, Study.modality, Patient.patient_id FROM Patient INNER JOIN Study ON Study.patient_id=Patient.patient_id WHERE Study.study_date="+"'"+date.Date.ToString()+"'";
             da.SelectCommand.CommandText = this.query;
                 try
                 {

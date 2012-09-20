@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="sys2.CNewPatient" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAEAAACAAABAAABiAAABCIgAAAIAAEACAAABAAAA=</HashCode>
+      <FileName>CNewPatient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sys2.CRegistration" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sys2.CScheduler" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CScheduler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sys2.CShadowService" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAIAAAAAQAAAAIAAEAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>CShadowService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sys2.CStartForm" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wHIIJwIxWAQaTCQEgiKRkVK6PxjxQh0cAUgWBgBB7A=</HashCode>
+      <FileName>CStartForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sys2.PatientProtocolForm" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCEAAAEAAACAACACwJACQAICAAQAAAAAEAA=</HashCode>
+      <FileName>PatientProtocolForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sys2.Program" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sys2.SQLDaemon" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAAAAAAAAAACAACAABCAIQEQAAAAEEKQKAAAAAiA=</HashCode>
+      <FileName>SQLDaemon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sys2.TestConnectionForm" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAIAAACAAEDAAAACAAAACCACAAIFAABQCAAAAAAA=</HashCode>
+      <FileName>TestConnectionForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sys2.Properties.Resources" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAABEAAAAQAIAAAAAgAAAAAAgIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sys2.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemClasses.CStateBox" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAQAQAAEAAAAAAAAAAA=</HashCode>
+      <FileName>SystemClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemClasses.User" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAACAAARAAAAAAAAAAAAAAAAAAGgA=</HashCode>
+      <FileName>SystemClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemClasses.CInitials" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SystemClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemClasses.CBirthDate" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>SystemClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemClasses.CStudy" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAAAECAAYAAQAQAAAQBQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SystemClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemClasses.CProtocol" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAAAAABAAAAA=</HashCode>
+      <FileName>SystemClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemClasses.CEmergency" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAKAAAAIAQAAAAAgEAAAAAgAAAAAAQAIAA=</HashCode>
+      <FileName>SystemClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemClasses.CPatient" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAIAAIAIAQAAAAAgAAAAAAgAAAAAAAAIAA=</HashCode>
+      <FileName>SystemClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="SystemClasses.State" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAMBAAAAAAAAAAAAAAAQAAAEIAAACAAAAAAg=</HashCode>
+      <FileName>SystemClasses.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SystemClasses.Message" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SystemClasses.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SystemClasses.Role" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAEIAAQAAAAAAAAAACA=</HashCode>
+      <FileName>SystemClasses.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SystemClasses.DMYCheck" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAACAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SystemClasses.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
